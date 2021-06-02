@@ -1,10 +1,19 @@
-$(document).ready(function){
-	$(window).ready(function){
+$(document).ready(function(){
+	$(window).ready(function(){
 		if(this.scrollY>20){
-			$('.navbar').addclass("sticky")
+			$('.navbar').addclass("sticky");
 		}else{
-			$('.navbar').removeclass("sticky")
+			$('.navbar').removeclass("sticky");
 
 		}
-	}
-}
+	});
+	$('.menu-btn').click(function(){
+		$('.navbar .menu').toggleClass("active");
+		$('.menu-btn i').toggleClass("active");
+
+
+
+
+	});
+
+});
