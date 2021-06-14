@@ -407,6 +407,7 @@ section .title::after{
 
 
 .contact .contact-content .row .info{
+	margin-top: 10px;
 	margin-left: 30px;
 
 }
@@ -472,6 +473,7 @@ section .title::after{
 }
 
 .contact .right form .button{
+	margin-top: 10px;
 	height: 47px;
 	width: 170px;
 
@@ -493,6 +495,8 @@ section .title::after{
 	color: #00b3b3;
 	background: none;
 }
+
+
 
 
 
